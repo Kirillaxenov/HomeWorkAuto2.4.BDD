@@ -25,7 +25,7 @@ public class MoneyTransferTest {
     }
 
     @Test
-    void TransferFrom1to2() {
+    void transferFrom1to2() {
         int amount = 7000;
         var dashboardPage = new DashboardPage();
         var firstCardInitialAmount = dashboardPage.getFirstCardBalance();
@@ -40,7 +40,7 @@ public class MoneyTransferTest {
     }
 
     @Test
-    void TransferFrom2to1() {
+    void transferFrom2to1() {
         int amount = 7000;
         var dashboardPage = new DashboardPage();
         var firstCardInitialAmount = dashboardPage.getFirstCardBalance();
@@ -54,7 +54,7 @@ public class MoneyTransferTest {
 
     }
     @Test
-    void TransferFrom1To1() {
+    void transferFrom1To1() {
         int amount = 8000;
         var dashboardPage = new DashboardPage();
         var firstCardInitialAmount = dashboardPage.getFirstCardBalance();
@@ -65,7 +65,7 @@ public class MoneyTransferTest {
     }
 
     @Test
-    void TransferMoreBalance() {
+    void transferMoreBalance() {
         int amount = 15000;
         var dashboardPage = new DashboardPage();
         var firstCardInitialAmount = dashboardPage.getFirstCardBalance();
